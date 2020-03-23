@@ -1,0 +1,87 @@
+doctype html
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="description" content="")
+        meta(name="author" content="")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400&amp;subset=latin")
+        link(rel="stylesheet" href="css/bootstrap/bootstrap-theme.css")
+        link(rel="icon" href="favicon.ico")
+    body
+        .container-fluid
+
+
+            nav.navbar.navbar-expand-lg.navbar-light
+                a.navbar-brand(href="#") Girl vs Bull
+                button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navigations-08", aria-controls="navigations-08", aria-expanded="false", aria-label="Toggle navigation")
+                    span.navbar-toggler-icon
+                .collapse.navbar-collapse#navigations-08
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.active(href="#") About
+                                span.sr-only (current)
+                        li.nav-item
+                            a.nav-link(href="#") Episodes
+                        li.nav-item
+                            a.nav-link(href="#") Exclusives
+                        li.nav-item
+                            a.nav-link(href="#") Collaborate
+                    a.btn.btn-outline-primary.mt-2.mt-md-0.ml-lg-3(href="#") Listen Now
+
+            section.py-5
+                .container
+                    .row
+                        .col-md-6.my-auto
+                            h1.display-4.mb-3 Sign Up for Exclusives
+                            p.lead.text-muted.mb-4 That's right, we save our best content for our exclusive subscribers. Want access? All you have to do is drop in your e-mail below.
+                            .row
+                                .col-md-11.col-lg-7
+                                    .input-group
+                                        label.sr-only(for="input1-headers-15") Your e-mail
+                                        input.form-control#input1-headers-15(type="text", placeholder="Your e-mail", required="required")
+                                        .input-group-append
+                                            button.btn.btn-primary Sign Up
+                                    .form-group.mt-2
+                                        .form-check
+                                            input.form-check-input#input2-headers-15(type="checkbox", required="required")
+                                            label.form-check-label.text-muted(for="input2-headers-15")
+                                                | Agree to #[a( href="#") terms and conditions].
+                                            .invalid-feedback You must agree before submitting.
+                        .col-md-6.my-auto
+                            img.img-fluid(src="https://bootstrapshuffle.com/placeholder/pictures/bg_4-3.svg?primary=e83e8c", alt="")
+
+
+
+            section.py-5
+                .container.text-center
+                    h2 Exclusive Content
+                    .row
+                        .col-md-6.col-lg-3.p-4
+                            img(src="placeholder/icons/check.svg", alt="")
+                            h3.my-3 One
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. gravida augue, a eleifend dolor. Sed sagittis ut odio vitae porta. Mauris et sapien lacinia, ornare nulla sit amet, tincidunt turpis. Integer fringilla sem a odio condimentum, vel ullamcorper nulla sagittis.
+                        .col-md-6.col-lg-3.p-4
+                            img(src="placeholder/icons/check.svg", alt="")
+                            h3.my-3 Two
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. gravida augue, a eleifend dolor. Sed sagittis ut odio vitae porta. Mauris et sapien lacinia, ornare nulla sit amet, tincidunt turpis. Integer fringilla sem a odio condimentum, vel ullamcorper nulla sagittis.
+                        .col-md-6.col-lg-3.p-4
+                            img(src="placeholder/icons/check.svg", alt="")
+                            h3.my-3 Three
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. gravida augue, a eleifend dolor. Sed sagittis ut odio vitae porta. Mauris et sapien lacinia, ornare nulla sit amet, tincidunt turpis. Integer fringilla sem a odio condimentum, vel ullamcorper nulla sagittis.
+                        .col-md-6.col-lg-3.p-4
+                            img(src="placeholder/icons/check.svg", alt="")
+                            h3.my-3 Four
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. gravida augue, a eleifend dolor. Sed sagittis ut odio vitae porta. Mauris et sapien lacinia, ornare nulla sit amet, tincidunt turpis. Integer fringilla sem a odio condimentum, vel ullamcorper nulla sagittis.
+
+
+            section.py-5
+                .container.text-center
+                    h3.mb-4 Don't Miss Out
+                    p.lead Remember, we save our best content for exclusive subscribers only. What are you waiting for?
+                    a.btn.btn-primary.mt-2(href="#") Give Me Exclusive Access
+
+        script(src="js/jquery/jquery.min.js")
+        script(src="js/popper/popper.min.js")
+        script(src="js/bootstrap/bootstrap.min.js")

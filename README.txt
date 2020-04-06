@@ -1,4 +1,6 @@
-Bootstrap Shuffle
+Welcome to Girl vs Bull. 
+
+The front-end of this website was created utilizing Bootstrap Shuffle - one of my new favorite tools. See below for details.
 
 1. Getting Started
 

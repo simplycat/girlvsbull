@@ -1,4 +1,8 @@
-# Bootstrap Shuffle
+# Welcome to Girl vs Bull
+
+This is a passion project for an upcoming podcast. The frontend is built utilizing Bootstrap shuffle. Please see below for documentation. Enjoy!
+
+## Instructions for Bootstrap Shuffle
 
 ## 1. Getting Started
 
@@ -23,9 +27,4 @@ npm run watch
 npm run build
 ```
 
-## 3. Contact
-
-If you have found any bugs in the Bootstrap Shuffle, have any questions, 
-comments or ideas for new features feel free to contact us:
-
-support@bootstrapshuffle.com
+## 3. Support Contact: support@bootstrapshuffle.com

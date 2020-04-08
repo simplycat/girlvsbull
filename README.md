@@ -6,7 +6,7 @@ This is a passion project for an upcoming podcast. The frontend is built utilizi
 
 ## 1. Getting Started
 
-Project's source files are placed in ./src/ directory. 
+Project's source files are placed in ./src/ directory.
 
 * ./src/assets - default static files (eg. image placeholders). You should replace them with your own files.
 
@@ -18,13 +18,20 @@ Project's source files are placed in ./src/ directory.
 
 ```
 # Install dependencies
-npm install 
+npm install
 
 # Run dev server with live preview (Browsersync)
 npm run watch
 
 # Or make production build
 npm run build
+```
+
+## 3. Deploy to GitHub Pages
+
+```
+# Deploy the website
+npm run deploy
 ```
 
 ## 3. Support Contact: support@bootstrapshuffle.com

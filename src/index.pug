@@ -9,7 +9,7 @@ html(lang="en")
         link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400&amp;subset=latin")
         link(rel="stylesheet" href="css/bootstrap/bootstrap-theme.css")
         link(rel="icon" href="favicon.ico")
-        script(src="style.js")
+
     body
         .container-fluid
 
@@ -36,8 +36,11 @@ html(lang="en")
                         .col-md-6.my-auto
                             h1.display-4 Girl vs 
                                 .script 
-                                    TxtRotate(2000,[" Culture.", " Workplace.", " Relationship.", " Bull.]) 
-                            p.lead.text-muted.mb-4 Speaking loudly and publicly about the fight for inequality, respect and the challenges of the modern successful female in the digital era. 
+                                    TxtRotate(
+                                    txt-rotate = [' Culture.', ' Workplace.', ' Relationship.', ' Bull.']
+                                    data-period = 2000
+                                    )
+                            p.lead.text-muted.mb-4 This is where we should put our profound intro sentence. 
                             a.btn.btn-primary(href="#") Start Listening
                             a.btn.btn-link(href="#") Learn more
                         .col-md-6
